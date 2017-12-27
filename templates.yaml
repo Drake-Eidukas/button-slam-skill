@@ -1,0 +1,46 @@
+question: >-
+    Here's your dilemma. {{ pro }}, but {{ con }}. 
+    Would you slam the button? 
+    Yes or no.
+
+question_reprompt: >- 
+    I didn't quite catch that! 
+    Would you slam the button? 
+    Yes or no. 
+
+stats: >-
+    {{ pro_count }} people slammed the button, whereas {{ con_count }} people chose not to slam the button. 
+    That's {{ pro_percent }} percent of people slamming the button!
+    Would you like to play again? 
+    If so, say ask me a question, or let's play.
+    If not, say quit or exit.
+
+stats_reprompt: >-
+    I didn't quite catch that! 
+    Would you like to play again? 
+    If so, say ask me a question, or let's play. 
+    If not, say quit or exit.
+
+starting_statement: >- 
+    Welcome to button slam! Would you like to play a round, or would you rather I explain the game?
+    If you'd like to play a game, say ask me a question, or let's play.
+    IF you'd like to have the game explained, say help. 
+
+starting_statement_reprompt: >- 
+    I'm sorry, I didn't catch that! 
+    If you'd like to play a game, say ask me a question, or let's play.
+    IF you'd like to have the game explained, say help. 
+
+explain_the_game: >- 
+    I'm going to present you with a superpower, benefit, or otherwise good scenario, alongside a drawback. 
+    If you choose to slam the button, then you get the benefit, but at the expense of also having the drawback. 
+    If you'd like to play a game, say ask me a question, or let's play.
+    IF you'd like to have the game explained, say help. 
+  
+explain_the_game_reprompt: >- 
+    I didn't quite catch that! 
+    If you'd like to play a game, say ask me a question, or let's play.
+    IF you'd like to have the game explained, say help. 
+
+done_playing: >-
+    OK! Thanks for playing button slam!
