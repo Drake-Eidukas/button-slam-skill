@@ -10,7 +10,7 @@ question_reprompt: >-
 
 stats: >-
     {{ pro_count }} people slammed the button, whereas {{ con_count }} people chose not to slam the button. 
-    That's {{ pro_percent }} percent of people slamming the button!
+    That's {{ pro_percent }} percent of people slamming the button and {{ con_percent }} not!
     Would you like to play again? 
     If so, say ask me a question, or let's play.
     If not, say quit or exit.
