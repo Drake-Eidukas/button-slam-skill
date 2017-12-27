@@ -1,5 +1,7 @@
 from flask import Flask, render_template
 from flask_ask import Ask, request, session, version, statement, question
+from bs4 import BeautifulSoup as bs
+import json, requests
 
 app = Flask(__name__)
 ask = Ask(app)
